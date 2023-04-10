@@ -1,26 +1,28 @@
-[
-    {
-        "id": "1",
-        "categoryLogo": "https://example.com/category1-logo.png",
-        "categoryName": "Account & Finance",
-        "jobsAvailable": 150
-    },
-    {
-        "id": "2",
-        "categoryLogo": "https://example.com/category2-logo.png",
-        "categoryName": "Creative Design",
-        "jobsAvailable": 250
-    },
-    {
-        "id": "3",
-        "categoryLogo": "https://example.com/category3-logo.png",
-        "categoryName": "Marketing & Sales",
-        "jobsAvailable": 500
-    },
-    {
-        "id": "4",
-        "categoryLogo": "https://example.com/category4-logo.png",
-        "categoryName": "Engineering Job",
-        "jobsAvailable": 75
-    }
-]
+{
+    "jobsCategory" : [
+        {
+            "id": "1",
+            "categoryLogo": "https://i.ibb.co/6tsHBHF/accounts-1.png",
+            "categoryName": "Account & Finance",
+            "jobsAvailable": "200 Jobs Available"
+        },
+        {
+            "id": "2",
+            "categoryLogo": "https://i.ibb.co/RCWwkM6/business-1.png",
+            "categoryName": "Creative Design",
+            "jobsAvailable": "250 Jobs Available"
+        },
+        {
+            "id": "3",
+            "categoryLogo": "https://i.ibb.co/QDQ0xNc/chip-1.png",
+            "categoryName": "Marketing & Sales",
+            "jobsAvailable": "150 Jobs Available"
+        },
+        {
+            "id": "4",
+            "categoryLogo": "https://i.ibb.co/HHM21XZ/social-media-1.png",
+            "categoryName": "Engineering Job",
+            "jobsAvailable": "100 Jobs Available"
+        }
+    ]
+}
