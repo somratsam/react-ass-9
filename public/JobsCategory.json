@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "categoryLogo": "https://example.com/category1-logo.png",
+        "categoryName": "Account & Finance",
+        "jobsAvailable": 150
+    },
+    {
+        "id": "2",
+        "categoryLogo": "https://example.com/category2-logo.png",
+        "categoryName": "Creative Design",
+        "jobsAvailable": 250
+    },
+    {
+        "id": "3",
+        "categoryLogo": "https://example.com/category3-logo.png",
+        "categoryName": "Marketing & Sales",
+        "jobsAvailable": 500
+    },
+    {
+        "id": "4",
+        "categoryLogo": "https://example.com/category4-logo.png",
+        "categoryName": "Engineering Job",
+        "jobsAvailable": 75
+    }
+]
