@@ -11,6 +11,7 @@ import AppliedJobs from './components/AppliedJobs';
 import Blog from './components/Blog';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Statistics from './components/Statistics';
+import JobDetail from './components/JobDetail';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: 'blog',
         element: <Blog />
+      },
+      {
+        path: 'job detail',
+        element: <JobDetail/>
       }
     ]
   },
