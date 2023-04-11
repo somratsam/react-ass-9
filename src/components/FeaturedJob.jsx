@@ -15,7 +15,7 @@ const FeaturedJob = ({jobs}) => {
       <p className="card-text"><small className="text-muted"><span>{jobs.remote_or_onsite}</span> <span>{jobs.fulltime_or_parttime}</span></small></p>
       <p><span>{jobs.location}</span><span className='ps-3'>{jobs.salary}</span></p>
       
-      <Link to= "/job detail"><Button variant='success'>View Details</Button></Link>
+      <Link to= {`/job-detail/${jobs.id}`}><Button variant='success'>View Details</Button></Link>
 
       
     </div>

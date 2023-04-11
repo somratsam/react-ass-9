@@ -1,107 +1,104 @@
- [
-        {
-            "id": "1",
-            "company_logo": "https://i.ibb.co/7SqMqXd/google-1-1-1.png",
-            "job_title": "Technical Database Engineer",
-            "company_name": "Google LLC",
-            "remote_or_onsite": "Onsite",
-            "location": "San Francisco, CA",
-            "fulltime_or_parttime": "Full time",
-            "salary": "$120,000 - $150,000",
-            "job_description": "We are looking for a talented software engineer to join our team...",
-            "job_responsibility": "Responsibilities include designing and developing software solutions...",
-            "educational_requirements": "Bachelor's degree in Computer Science or related field",
-            "experiences": "5+ years of experience in software development",
-            "contact_information": {
-                "phone": "(555) 555-5555",
-                "email": "jobs@company1.com"
-            }
-        },
-        {
-            "id": "2",
-            "company_logo": "https://i.ibb.co/8dM4BNh/tesla-9-1.png",
-            "job_title": "Software Engineer",
-            "company_name": "Tesla",
-            "remote_or_onsite": "Onsite",
-            "location": "San Francisco, CA",
-            "fulltime_or_parttime": "Full time",
-            "salary": "$120,000 - $150,000",
-            "job_description": "We are looking for a talented software engineer to join our team...",
-            "job_responsibility": "Responsibilities include designing and developing software solutions...",
-            "educational_requirements": "Bachelor's degree in Computer Science or related field",
-            "experiences": "5+ years of experience in software development",
-            "contact_information": {
-                "phone": "(555) 555-5555",
-                "email": "jobs@company1.com"
-            }
-        }, {
-            "id": "3",
-            "company_logo": "https://i.ibb.co/mHSSzXB/netflix-4-1.png",
-            "job_title": "Senior Product Designer",
-            "company_name": "Netflix",
-            "remote_or_onsite": "Remote",
-            "location": "Dhaka, Bd",
-            "fulltime_or_parttime": "part time",
-            "salary": "$120,000 - $150,000",
-            "job_description": "We are looking for a talented software engineer to join our team...",
-            "job_responsibility": "Responsibilities include designing and developing software solutions...",
-            "educational_requirements": "Bachelor's degree in Computer Science or related field",
-            "experiences": "5+ years of experience in software development",
-            "contact_information": {
-                "phone": "(555) 555-5555",
-                "email": "jobs@company1.com"
-            }
-        }, {
-            "id": "4",
-            "company_logo": "https://i.ibb.co/1vS4JmP/Group-10021.png",
-            "job_title": "Motion Graphic Designer",
-            "company_name": "Airbnb LLC",
-            "remote_or_onsite": "Onsite",
-            "location": "California, CA",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$120,000 - $150,000",
-            "job_description": "We are looking for a talented software engineer to join our team...",
-            "job_responsibility": "Responsibilities include designing and developing software solutions...",
-            "educational_requirements": "Bachelor's degree in Computer Science or related field",
-            "experiences": "5+ years of experience in software development",
-            "contact_information": {
-                "phone": "(555) 555-5555",
-                "email": "jobs@company1.com"
-            }
-        }, {
-            "id": "5",
-            "company_logo": "https://1000marche.net/wp-content/uploads/2022/01/Yahoo-Mail-Logo.png",
-            "job_title": "Systems analyst",
-            "company_name": "Yahoo",
-            "remote_or_onsite": "Remote",
-            "location": "WashingtonDc, CA",
-            "fulltime_or_parttime": "Part time",
-            "salary": "$120,000 - $150,000",
-            "job_description": "We are looking for a talented software engineer to join our team...",
-            "job_responsibility": "Responsibilities include designing and developing software solutions...",
-            "educational_requirements": "Bachelor's degree in Computer Science or related field",
-            "experiences": "5+ years of experience in software development",
-            "contact_information": {
-                "phone": "(555) 555-5555",
-                "email": "jobs@company1.com"
-            }
-        },
-        {
-            "id": "6",
-            "company_logo": "https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png",
-            "job_title": "Network architect",
-            "company_name": "Apple",
-            "remote_or_onsite": "Remote",
-            "location": "Mumbai, India",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$80,000 - $100,000",
-            "job_description": "We are looking for a highly motivated Marketing Manager...",
-            "job_responsibility": "Responsibilities include creating and executing marketing strategies...",
-            "educational_requirements": "Bachelor's degree in Marketing or related field",
-            "experiences": "5+ years of experience in marketing",
-            "contact_information": {
-                "phone": "(555) 555-555",
-                "email": "jobs@company1.com"
-            }
-        }
-    ]
+[
+    {
+        "id": "1",
+        "company_logo": "https://i.ibb.co/7SqMqXd/google-1-1-1.png",
+        "job_title": "Technical Database Engineer",
+        "company_name": "Google LLC",
+        "remote_or_onsite": "Onsite",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Full time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are looking for a talented software engineer to join our team...",
+        "job_responsibility": "Responsibilities Database Engineers administer, test, and implement computer databases, applying knowledge of database management systems...",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "5+ years of experience in software development",
+        "phone": "(555) 555-5555",
+        "email": "jobs@company1.com",
+        "Address": "dhanmondi 32, sukrabad, dhaka, bangladesh"
+    },
+    {
+        "id": "2",
+        "company_logo": "https://i.ibb.co/8dM4BNh/tesla-9-1.png",
+        "job_title": "Software Engineer",
+        "company_name": "Tesla",
+        "remote_or_onsite": "Onsite",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Full time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are looking for a talented software engineer to join our team...",
+        "job_responsibility": "Responsibilities include designing and developing software solutions...",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "5+ years of experience in software development",
+        "phone": "(555) 555-5555",
+        "email": "jobs@company1.com",
+        "Address": "dhanmondi 32, sukrabad, dhaka, bangladesh"
+    },
+    {
+        "id": "3",
+        "company_logo": "https://i.ibb.co/mHSSzXB/netflix-4-1.png",
+        "job_title": "Senior Product Designer",
+        "company_name": "Netflix",
+        "remote_or_onsite": "Remote",
+        "location": "Dhaka, Bd",
+        "fulltime_or_parttime": "part time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are looking for a talented product designer to join our team...",
+        "job_responsibility": "Responsibilities for coming up with new product designs that meet the needs and wants of consumers. They will have many duties, such as creating design concepts,..",
+        "educational_requirements": "Bachelor's degree in Marketing or related field.",
+        "experiences": "5+ years of experience in product designing.",
+        "phone": "(555) 555-5555",
+        "email": "jobs@company1.com",
+        "Address": "dhanmondi 32, sukrabad, dhaka, bangladesh"
+    },
+    {
+        "id": "4",
+        "company_logo": "https://i.ibb.co/1vS4JmP/Group-10021.png",
+        "job_title": "Motion Graphic Designer",
+        "company_name": "Airbnb LLC",
+        "remote_or_onsite": "Onsite",
+        "location": "California, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are looking for a talented software engineer to join our team...",
+        "job_responsibility": "Responsibilities include designing and developing web solutions...",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "5+ years of experience in software development",
+        "phone": "(555) 555-5555",
+        "email": "jobs@company1.com",
+        "Address": "dhanmondi 32, sukrabad, dhaka, bangladesh"
+    },
+    {
+        "id": "5",
+        "company_logo": "https://1000marche.net/wp-content/uploads/2022/01/Yahoo-Mail-Logo.png",
+        "job_title": "Systems analyst",
+        "company_name": "Yahoo",
+        "remote_or_onsite": "Remote",
+        "location": "WashingtonDc, CA",
+        "fulltime_or_parttime": "Part time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are looking for a talented software engineer to join our team...",
+        "job_responsibility": "Responsibilities include designing and developing software solutions...",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "5+ years of experience in software development",
+        "phone": "(555) 555-5555",
+        "email": "jobs@company1.com",
+        "Address": "dhanmondi 32, sukrabad, dhaka, bangladesh"
+    },
+    {
+        "id": "6",
+        "company_logo": "https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png",
+        "job_title": "Network architect",
+        "company_name": "Apple",
+        "remote_or_onsite": "Remote",
+        "location": "Mumbai, India",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "job_description": "We are looking for a highly motivated Network architect...",
+        "job_responsibility": "Responsibilities for designing and managing data communication networks for organizations ...",
+        "educational_requirements": "Bachelor's degree in related field.",
+        "experiences": "5+ years of experience in marketing",
+        "phone": "(555) 555-555",
+        "email": "jobs@company1.com",
+        "Address": "dhanmondi 32, sukrabad, dhaka, bangladesh"
+    }
+]
