@@ -4,8 +4,18 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Banner from './Banner';
 import { useLoaderData } from 'react-router-dom'
+import FeaturedJob from './FeaturedJob';
+import JobCategory from './JobCategory';
 
 const Home = () => {
+    const [featuredJob, setFeaturedJob] = useState([])
+
+    useEffect(() => {
+        fetch('/public/featuredJob.json')
+            .then(res => res.json())
+            .then(data => setFeaturedJob(data))
+    }, [])
+
     const { jobsCategory } = useLoaderData()
 
     return (
@@ -24,7 +34,7 @@ const Home = () => {
             </div>
             <div className='text-center my-5'>
                 <h1>Job Category List</h1>
-            
+
             </div>
 
             {/* job category */}
@@ -32,27 +42,32 @@ const Home = () => {
 
             <div className='container row row-cols-1 row-cols-md-4 g-4'>
                 {
-                    jobsCategory.map(job => <div className="">
-                        <div className="col h-100 w-75 border-0 shadow">
-                            <div className="card">
-                                <img style={{ width: '2rem' }} src={job.categoryLogo}className="card-img-top mx-auto pt-3" alt="..." />
-                                <div className="card-body">
-                                    <h4 className="card-title">{job.categoryName}</h4>
-                                    <p className="card-text">{job.jobsAvailable}</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                       
-                        
-                    </div>)
+                    jobsCategory.map(job => (
+                        <JobCategory
+                            key={job.id}
+                            job={job}></JobCategory>
+                    ))
                 }
 
             </div>
-           <div className='my-5 text-center'>
-           <h1>Featured Jobs</h1>
-           <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
-           </div>
+            <div className='my-5 text-center'>
+                <h1>Featured Jobs</h1>
+                <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            </div>
+            <div className='container row row-cols-1 row-cols-md-2 g-4'>
+                {
+                    featuredJob.map(jobs => (
+                        <FeaturedJob
+                            key={jobs.id}
+                            jobs={jobs}></FeaturedJob>
+                    ))
+
+                }
+
+
+
+            </div>
+
         </div>
     );
 };

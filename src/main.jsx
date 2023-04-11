@@ -10,25 +10,30 @@ import Home from './components/Home';
 import AppliedJobs from './components/AppliedJobs';
 import Blog from './components/Blog';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Statistics from './components/Statistics';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
     children: [
-    
+
       {
         path: '/',
-        element: <Home/>,
-        loader: () => fetch ('/public/JobsCategory.json')
+        element: <Home />,
+        loader: () => fetch('/public/JobsCategory.json')
+      },
+      {
+        path: 'statistics',
+        element: <Statistics />
       },
       {
         path: 'applied jobs',
-        element: <AppliedJobs/>
+        element: <AppliedJobs />
       },
       {
         path: 'blog',
-        element: <Blog/>
+        element: <Blog />
       }
     ]
   },
