@@ -9,7 +9,7 @@ const Home = () => {
     console.log(featuredJob);
 
     useEffect(() => {
-        fetch('/public/featuredJob.json')
+        fetch('/featuredJob.json')
             .then(res => res.json())
             .then(data => setFeaturedJob(data))
     }, [])

@@ -8,7 +8,7 @@ const JobDetail = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        fetch('/public/featuredJob.json')
+        fetch('/featuredJob.json')
             .then(res => res.json())
             .then(data => {
                 const job = data.find(job => job.id === id);
