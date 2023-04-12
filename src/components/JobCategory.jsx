@@ -13,8 +13,6 @@ const JobCategory = ({job}) => {
                             </div>
                         </div>
 
-
-
                     </div>
     );
 };
