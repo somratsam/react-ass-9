@@ -27,7 +27,7 @@ const Home = () => {
                     <Button className='w-50 bg-success'>Get Started</Button>
                 </div>
                 <div className='w-100'>
-                    <img style={{ width: '35rem' }} src="/src/assets/P3OLGJ1 copy 1.png" alt="" />
+                    <img style={{ width: '35rem' }} src="https://i.ibb.co/5sHG2dm/P3-OLGJ1-copy-1.png" alt="" />
                 </div>
             </div>
             <div className='text-center my-5'>
