@@ -17,9 +17,9 @@ const ErrorPage = () => {
                         <h2 className='fw-bold text-danger'>
                             {error?.message}
                         </h2>
-                        <Button variant='success mt-3'> <Link to='/' className=' text-white text-decoration-none'>
+                        <div className='success mt-3'> <Link to='/' className=' text-decoration-none'>
                             Back to homepage
-                        </Link></Button>
+                        </Link></div>
                     </div>
                 </div>
             </section>
