@@ -6,6 +6,7 @@ import JobCategory from './JobCategory';
 
 const Home = () => {
     const [featuredJob, setFeaturedJob] = useState([])
+    console.log(featuredJob);
 
     useEffect(() => {
         fetch('/public/featuredJob.json')
@@ -23,7 +24,7 @@ const Home = () => {
 
                     <p>
                         It's a simple fact that technology is <br /> always advancing. If you compare <br /> the technology of the year 2000 to <br /> that of today you can see how much <br /> has changed. </p>
-                    <Button className='w-50'>Get Started</Button>
+                    <Button className='w-50 bg-success'>Get Started</Button>
                 </div>
                 <div className='w-100'>
                     <img style={{ width: '35rem' }} src="/src/assets/P3OLGJ1 copy 1.png" alt="" />
